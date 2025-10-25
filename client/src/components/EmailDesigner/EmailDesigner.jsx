@@ -239,13 +239,13 @@ const EmailDesigner = () => {
           ""
         )}
         {/* Main Content Area */}
+        {currentTemplate && (           
         <div
           style={{
             flex: 1,
             display: "flex",
             flexDirection: "column",
             padding: "1rem",
-            display: currentTemplate ? "flex" : "none",
           }}
         >
           {showPreview ? (
@@ -271,6 +271,7 @@ const EmailDesigner = () => {
             />
           )}
         </div>
+            )}
 
         {/* Right Sidebar - Variables Panel */}
 

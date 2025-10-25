@@ -14,9 +14,6 @@ export default defineConfig(({ mode }) => {
         '@': path.resolve(__dirname, './src'),
       },
     },
-    define: {
-      __APP_NAME__: JSON.stringify(env.VITE_APP_NAME),
-    },
      server: {
      port: 3000,
       },
