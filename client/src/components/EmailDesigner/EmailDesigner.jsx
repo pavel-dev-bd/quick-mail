@@ -169,7 +169,7 @@ const EmailDesigner = () => {
         display: "flex",
         height: "calc(100vh - 80px)",
         backgroundColor: "#f5f7fa",
-        flexDirection: "column",
+        flexDirection: "column"
       }}
     >
       <ErrorMessage message={error} onClose={clearError} />
