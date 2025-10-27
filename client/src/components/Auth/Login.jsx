@@ -42,7 +42,7 @@ const Login = () => {
   return (
     <div className="auth-container">
       <div className="auth-form">
-        <h2>Login to Resume Mailer</h2>
+        <h2>Login to  {import.meta.env.VITE_APP_NAME || 'Quick  Apply'}</h2>
         
         <ErrorMessage message={error} onClose={() => setError('')} />
         

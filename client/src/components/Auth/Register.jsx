@@ -55,7 +55,7 @@ const Register = () => {
   return (
     <div className="auth-container">
       <div className="auth-form">
-        <h2>Create Account</h2>
+        <h2>Create Account on{import.meta.env.VITE_APP_NAME || 'Quick  Apply'}</h2>
         
         <ErrorMessage message={error} onClose={() => setError('')} />
         

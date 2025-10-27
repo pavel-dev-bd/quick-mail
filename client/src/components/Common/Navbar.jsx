@@ -32,7 +32,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-brand">
         <img src={logo} alt="logo" height={50} width={50} />
-        {import.meta.env.VITE_APP_NAME || 'Quick 4 Apply'}
+        {import.meta.env.VITE_APP_NAME || 'Quick  Apply'}
       </div>
       <div className="nav-links">
         <button 
