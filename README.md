@@ -42,4 +42,4 @@ A secure, full-stack MERN application for bulk resume emailing with enhanced sec
 1. Navigate to backend directory
 2. Copy `.env.example` to `.env` and configure
 3. Run `npm install`
-4. Run `npm
+4. Run `npm# react-mailbox
